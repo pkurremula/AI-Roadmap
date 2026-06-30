@@ -1,0 +1,19 @@
+[project]
+name = "ai-roadmap"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.138.2",
+    "httpx>=0.28.1",
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+    "ollama>=0.6.2",
+    "pydantic>=2.13.4",
+    "python-dotenv>=1.2.2",
+    "requests>=2.34.2",
+    "rich>=15.0.0",
+    "typer>=0.26.8",
+    "uvicorn[standard]>=0.49.0",
+]
