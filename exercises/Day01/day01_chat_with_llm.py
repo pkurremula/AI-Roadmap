@@ -12,7 +12,7 @@ response = chat(
 
 print(response["message"]["content"])
 
-with open("notes/day1.md", "a", encoding="utf-8") as file:
+with open("notes/day01.md", "a", encoding="utf-8") as file:
     file.write(response["message"]["content"] + "\n\n")
 
 response = chat(
@@ -27,7 +27,7 @@ response = chat(
 
 print(response["message"]["content"])
 
-with open("notes/day1.md", "a", encoding="utf-8") as file:
+with open("notes/day01.md", "a", encoding="utf-8") as file:
     file.write(response["message"]["content"] + "\n\n")
 
 response = chat(
@@ -42,7 +42,7 @@ response = chat(
 
 print(response["message"]["content"])
 
-with open("notes/day1.md", "a", encoding="utf-8") as file:
+with open("notes/day01.md", "a", encoding="utf-8") as file:
     file.write(response["message"]["content"] + "\n\n")
 
 response = chat(
@@ -57,7 +57,7 @@ response = chat(
 
 print(response["message"]["content"])
 
-with open("notes/day1.md", "a", encoding="utf-8") as file:
+with open("notes/day01.md", "a", encoding="utf-8") as file:
     file.write(response["message"]["content"] + "\n\n")
 
 response = chat(
@@ -72,5 +72,5 @@ response = chat(
 
 print(response["message"]["content"])
 
-with open("notes/day1.md", "a", encoding="utf-8") as file:
+with open("notes/day01.md", "a", encoding="utf-8") as file:
     file.write(response["message"]["content"] + "\n\n")
