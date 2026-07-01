@@ -12,6 +12,9 @@ response = chat(
 
 print(response["message"]["content"])
 
+with open("notes/day1.md", "a", encoding="utf-8") as file:
+    file.write(response["message"]["content"] + "\n\n")
+
 response = chat(
     model="llama3.2:3b",
     messages=[
@@ -23,6 +26,9 @@ response = chat(
 )
 
 print(response["message"]["content"])
+
+with open("notes/day1.md", "a", encoding="utf-8") as file:
+    file.write(response["message"]["content"] + "\n\n")
 
 response = chat(
     model="llama3.2:3b",
@@ -36,6 +42,9 @@ response = chat(
 
 print(response["message"]["content"])
 
+with open("notes/day1.md", "a", encoding="utf-8") as file:
+    file.write(response["message"]["content"] + "\n\n")
+
 response = chat(
     model="llama3.2:3b",
     messages=[
@@ -48,6 +57,9 @@ response = chat(
 
 print(response["message"]["content"])
 
+with open("notes/day1.md", "a", encoding="utf-8") as file:
+    file.write(response["message"]["content"] + "\n\n")
+
 response = chat(
     model="llama3.2:3b",
     messages=[
@@ -59,3 +71,6 @@ response = chat(
 )
 
 print(response["message"]["content"])
+
+with open("notes/day1.md", "a", encoding="utf-8") as file:
+    file.write(response["message"]["content"] + "\n\n")
